@@ -24,7 +24,7 @@ function p1(mot){
 function p1(mot){
     for(let i=0;i<mot.length;i++){
         if(mot[i]!=mot[mot.length-1-i])
-            return 'pas palindrome'
+            return "ce n'est pas un palindrome"
         
     }
     return 'palindrome'
